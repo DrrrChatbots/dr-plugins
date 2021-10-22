@@ -42,11 +42,11 @@
             theme: '#ebd0c2'
           });
         })
-        setTimeout(function(){ ap.play(); }, 3000);
+        ap.play();
       }
     }
     plugin_hooks.push(plugin_aplayer);
 
-  }, 5000);
+  }, 2000);
 
 })();
